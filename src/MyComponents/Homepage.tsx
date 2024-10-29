@@ -6,6 +6,7 @@ import Logo from "../Images/image.svg";
 import LargeLogo from "../Images/Group 1.svg";
 import BackgroundImage from "../Images/backgroundImage.png";
 import NameLogo from "../Images/Girman.svg";
+import SearchLogo from "../Images/Vector.svg";
 import EmptySearch from "../Images/Group 143.png";
 import InformationCard from "./InformationCard";
 import UserData from "../Data/UserData.json";
@@ -151,6 +152,12 @@ const Homepage = () => {
         </div>
 
         <div className="relative mt-2 w-full max-w-md">
+          <img
+            src={SearchLogo}
+            alt="SearchLogo"
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5"
+            style={{ height: "15px" }}
+          />
           <Input
             placeholder="Search"
             className="pl-10 py-3 rounded-md shadow-md bg-white border border-gray-300"
