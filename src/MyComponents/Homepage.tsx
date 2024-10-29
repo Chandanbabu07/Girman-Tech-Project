@@ -153,7 +153,7 @@ const Homepage = () => {
         <div className="relative mt-2 w-full max-w-md">
           <Input
             placeholder="Search"
-            className="pl-10 py-3 rounded-md shadow-md bg-white border-none"
+            className="pl-10 py-3 rounded-md shadow-md bg-white border border-gray-300"
             style={{ borderRadius: "10px", width: "100%" }}
             onChange={(e) => handleSearch(e.target.value)}
           />
